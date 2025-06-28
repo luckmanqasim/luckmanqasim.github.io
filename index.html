@@ -3,20 +3,93 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Luckman Qasim | Portfolio</title>
+    
+    <!-- Primary Meta Tags -->
+    <title>Luckman Qasim | Software Developer & AI Researcher | Portfolio</title>
+    <meta name="title" content="Luckman Qasim | Software Developer & AI Researcher | Portfolio">
+    <meta name="description" content="Computer Science student and published AI researcher specializing in Large Language Models, Computer Vision, and full-stack development. Experience with TrOCR, React, C#, and Python.">
+    <meta name="keywords" content="Luckman Qasim, Software Developer, AI Researcher, Computer Science, Machine Learning, LLM, Computer Vision, React, Python, C#, Memorial University, Newfoundland">
+    <meta name="author" content="Luckman Qasim">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="EN">
+    <meta name="theme-color" content="#2563EB">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://luckmanqasim.github.io/">
+    <meta property="og:title" content="Luckman Qasim | Software Developer & AI Researcher">
+    <meta property="og:description" content="Computer Science student and published AI researcher specializing in Large Language Models, Computer Vision, and full-stack development.">
+    <meta property="og:image" content="https://luckmanqasim.github.io/assets/og-image.jpg">
+    <meta property="og:site_name" content="Luckman Qasim Portfolio">
+    <meta property="og:locale" content="en_US">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://luckmanqasim.github.io/">
+    <meta property="twitter:title" content="Luckman Qasim | Software Developer & AI Researcher">
+    <meta property="twitter:description" content="Computer Science student and published AI researcher specializing in Large Language Models, Computer Vision, and full-stack development.">
+    <meta property="twitter:image" content="https://luckmanqasim.github.io/assets/og-image.jpg">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://luckmanqasim.github.io/">
+      <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="./favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+    <link rel="manifest" href="./site.webmanifest">
+    
+    <!-- Stylesheets -->
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    
+    <!-- Preconnect for performance -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Luckman Qasim",
+      "url": "https://luckmanqasim.github.io",
+      "image": "https://luckmanqasim.github.io/assets/profile-image.jpg",
+      "sameAs": [
+        "https://linkedin.com/in/luckmanqasim",
+        "https://github.com/luckmanqasim"
+      ],
+      "jobTitle": "Software Developer & AI Researcher",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Genoa Design International"
+      },
+      "alumniOf": {
+        "@type": "Organization",
+        "name": "Memorial University of Newfoundland"
+      },
+      "email": "mlqasim@mun.ca",
+      "description": "Computer Science student and published AI researcher specializing in Large Language Models, Computer Vision, and full-stack development.",
+      "knowsAbout": [
+        "Artificial Intelligence",
+        "Machine Learning",
+        "Large Language Models",
+        "Computer Vision",
+        "Full-Stack Development",
+        "React",
+        "Python",
+        "C#",
+        "Software Development"
+      ]
+    }
+    </script>
 </head>
 <body>
     <div class="cursor"></div>
-    <div class="cursor-follower"></div>
-
-    <header>
+    <div class="cursor-follower"></div>    <header role="banner">
         <div class="container">
-            <nav>
+            <nav role="navigation" aria-label="Main navigation">
                 <div class="logo">LQ</div>
                 <ul class="nav-links">
                     <li><a href="#about" class="nav-link">About</a></li>
@@ -25,17 +98,17 @@
                     <li><a href="#skills" class="nav-link">Skills</a></li>
                 </ul>
                 <div class="mobile-nav-controls">
-                    <button id="theme-toggle" aria-label="Toggle dark mode">
+                    <button id="theme-toggle" aria-label="Toggle between light and dark theme">
                         <i class="fas fa-moon"></i>
                         <i class="fas fa-sun"></i>
                     </button>
-                    <button id="mobile-menu-toggle" aria-label="Toggle menu">
+                    <button id="mobile-menu-toggle" aria-label="Toggle mobile navigation menu">
                         <i class="fas fa-bars"></i>
                     </button>
                 </div>
             </nav>
             
-            <div class="mobile-menu">
+            <div class="mobile-menu" role="navigation" aria-label="Mobile navigation">
                 <ul>
                     <li><a href="#about">About</a></li>
                     <li><a href="#experience">Experience</a></li>
@@ -46,56 +119,56 @@
 
             <div class="hero">
                 <h1 class="reveal-text">Luckman Qasim</h1>
-                <h2 class="reveal-text delay-1">Software Developer</h2>
+                <p class="reveal-text delay-1" role="doc-subtitle">Software Developer & AI Researcher</p>
                 <div class="contact-info reveal-text delay-2">
-                    <a href="mailto:mlqasim@mun.ca"><i class="fas fa-envelope"></i> mlqasim@mun.ca</a>
-                    <a href="https://linkedin.com/in/luckmanqasim" target="_blank"><i class="fab fa-linkedin"></i> linkedin.com/in/luckmanqasim</a>
-                    <a href="https://github.com/luckmanqasim" target="_blank"><i class="fab fa-github"></i> github.com/luckmanqasim</a>
+                    <a href="mailto:mlqasim@mun.ca" aria-label="Email Luckman Qasim"><i class="fas fa-envelope" aria-hidden="true"></i> mlqasim@mun.ca</a>
+                    <a href="https://linkedin.com/in/luckmanqasim" target="_blank" rel="noopener noreferrer" aria-label="Luckman Qasim's LinkedIn profile"><i class="fab fa-linkedin" aria-hidden="true"></i> linkedin.com/in/luckmanqasim</a>
+                    <a href="https://github.com/luckmanqasim" target="_blank" rel="noopener noreferrer" aria-label="Luckman Qasim's GitHub profile"><i class="fab fa-github" aria-hidden="true"></i> github.com/luckmanqasim</a>
                 </div>
             </div>
         </div>
     </header>
 
-    <section id="about" class="section">
-        <div class="container">
-            <h2 class="section-title reveal-text">About Me</h2>
-            <div class="section-content">                <div class="about-text reveal-element">
-                    <p>I'm a driven final-year Computer Science student and published researcher (ProS<sup>2</sup>Vi, Computational and Structural Biotechnology Journal) from Memorial University of Newfoundland. I have a proven track record of solving real-world problems using AI, with expertise in both Large Language Models (LLMs) and Computer Vision.</p>
-                    <p>My work spans fine-tuning AI models for practical applications like digitizing documents, developing sophisticated LLM training content, and creating novel scientific visualization tools. I'm particularly fascinated by the intersection of LLMs and Computer Vision and am actively seeking opportunities to build impactful, AI-driven applications.</p>
-                </div>
-                <div class="education reveal-element delay-1">
-                    <h3><i class="fas fa-graduation-cap"></i> Education</h3>
-                    <div class="education-item">
-                        <h4>Memorial University of Newfoundland</h4>
-                        <p>Bachelor of Science in Computer Science</p>
-                        <p class="highlight">CGPA 3.82/4.00</p>
-                        <p class="date">May 2022 – May 2026</p>
-                    </div>
+    <main role="main">
+        <section id="about" class="section" aria-labelledby="about-heading">
+            <div class="container">
+                <h2 id="about-heading" class="section-title reveal-text">About Me</h2>
+                <div class="section-content">
+                    <article class="about-text reveal-element">
+                        <p>I'm a driven final-year Computer Science student and published researcher (ProS<sup>2</sup>Vi, Computational and Structural Biotechnology Journal) from Memorial University of Newfoundland. I have a proven track record of solving real-world problems using AI, with expertise in both Large Language Models (LLMs) and Computer Vision.</p>
+                        <p>My work spans fine-tuning AI models for practical applications like digitizing documents, developing sophisticated LLM training content, and creating novel scientific visualization tools. I'm particularly fascinated by the intersection of LLMs and Computer Vision and am actively seeking opportunities to build impactful, AI-driven applications.</p>
+                    </article>
+                    <aside class="education reveal-element delay-1">
+                        <h3><i class="fas fa-graduation-cap" aria-hidden="true"></i> Education</h3>
+                        <div class="education-item">
+                            <h4>Memorial University of Newfoundland</h4>
+                            <p>Bachelor of Science in Computer Science</p>
+                            <p class="highlight">CGPA 3.82/4.00</p>
+                            <p class="date">May 2022 – May 2026</p>
+                        </div>
+                    </aside>
                 </div>
             </div>
-        </div>
-    </section>
-
-    <section id="experience" class="section alt-bg">
-        <div class="container">
-            <h2 class="section-title reveal-text">Work Experience</h2>
-            <div class="timeline">
-                <div class="timeline-item reveal-element">
-                    <div class="timeline-content">
-                        <h3>Software Development Intern</h3>
-                        <div class="date-badge">September 2024 – Present</div>
-                        <h4>Genoa Design International</h4>
-                        <p class="location"><i class="fas fa-map-marker-alt"></i> Mount Pearl, NL</p>
-                        <ul class="achievements">
-                            <li>Digitized legacy hand-drawn documents by fine-tuning Microsoft TrOCR AI model to extract and index specific codes from thousands of pages, streamlining CAD workflows.</li>
-                            <li>Extracted hand-written text from legacy PDFs and inserted it as comments, enabling CAD designers to efficiently search using CTRL+F, significantly reducing time spent locating information.</li>
-                            <li>Built full-stack solutions for Genoa's internal configuration management web applications using C#, SQL, React, and Material UI, improving functionality and user experience.</li>
-                            <li>Collaborated in an Agile environment using Scrum to meet project goals efficiently.</li>
-                            <li>Managed task assignments, source control, and CI/CD pipelines via Azure DevOps.</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="timeline-item reveal-element delay-1">
+        </section>        <section id="experience" class="section alt-bg" aria-labelledby="experience-heading">
+            <div class="container">
+                <h2 id="experience-heading" class="section-title reveal-text">Work Experience</h2>
+                <div class="timeline" role="list">
+                    <article class="timeline-item reveal-element" role="listitem">
+                        <div class="timeline-content">
+                            <h3>Software Development Intern</h3>
+                            <time class="date-badge" datetime="2024-09">September 2024 – Present</time>
+                            <h4>Genoa Design International</h4>
+                            <p class="location"><i class="fas fa-map-marker-alt" aria-hidden="true"></i> Mount Pearl, NL</p>
+                            <ul class="achievements">
+                                <li>Digitized legacy hand-drawn documents by fine-tuning Microsoft TrOCR AI model to extract and index specific codes from thousands of pages, streamlining CAD workflows.</li>
+                                <li>Extracted hand-written text from legacy PDFs and inserted it as comments, enabling CAD designers to efficiently search using CTRL+F, significantly reducing time spent locating information.</li>
+                                <li>Built full-stack solutions for Genoa's internal configuration management web applications using C#, SQL, React, and Material UI, improving functionality and user experience.</li>
+                                <li>Collaborated in an Agile environment using Scrum to meet project goals efficiently.</li>
+                                <li>Managed task assignments, source control, and CI/CD pipelines via Azure DevOps.</li>
+                            </ul>
+                        </div>
+                    </article>
+                    <article class="timeline-item reveal-element delay-1" role="listitem">
                     <div class="timeline-content">
                         <h3>AI Trainer</h3>
                         <div class="date-badge">December 2023 – Present</div>
@@ -267,15 +340,15 @@
             <div class="footer-content">
                 <div class="footer-text">
                     <p>&copy; 2025 Luckman Qasim</p>
-                </div>
-                <div class="social-links">
-                    <a href="https://linkedin.com/in/luckmanqasim" target="_blank"><i class="fab fa-linkedin"></i></a>
-                    <a href="https://github.com/luckmanqasim" target="_blank"><i class="fab fa-github"></i></a>
-                    <a href="mailto:mlqasim@mun.ca"><i class="fas fa-envelope"></i></a>
+                </div>                    <div class="social-links">
+                        <a href="https://linkedin.com/in/luckmanqasim" target="_blank" rel="noopener noreferrer" aria-label="Connect with Luckman Qasim on LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+                        <a href="https://github.com/luckmanqasim" target="_blank" rel="noopener noreferrer" aria-label="View Luckman Qasim's projects on GitHub"><i class="fab fa-github" aria-hidden="true"></i></a>
+                        <a href="mailto:mlqasim@mun.ca" aria-label="Send an email to Luckman Qasim"><i class="fas fa-envelope" aria-hidden="true"></i></a>
+                    </div>
                 </div>
             </div>
-        </div>
-    </footer>
+        </footer>
+    </main>
 
     <script src="script.js"></script>
 </body>

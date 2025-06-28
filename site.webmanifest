@@ -1,0 +1,39 @@
+{
+    "name": "Luckman Qasim - Software Developer & AI Researcher",
+    "short_name": "Luckman Qasim",
+    "description": "Portfolio of Luckman Qasim - Computer Science student and published AI researcher specializing in Large Language Models, Computer Vision, and full-stack development.",
+    "start_url": "https://luckmanqasim.github.io/",
+    "display": "standalone",
+    "background_color": "#F9FAFB",
+    "theme_color": "#2563EB",
+    "orientation": "portrait-primary",
+    "icons": [
+        {
+            "src": "https://luckmanqasim.github.io/favicon-16x16.png",
+            "sizes": "16x16",
+            "type": "image/png"
+        },
+        {
+            "src": "https://luckmanqasim.github.io/favicon-32x32.png",
+            "sizes": "32x32",
+            "type": "image/png"
+        },
+        {
+            "src": "https://luckmanqasim.github.io/apple-touch-icon.png",
+            "sizes": "180x180",
+            "type": "image/png"
+        },
+        {
+            "src": "https://luckmanqasim.github.io/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "https://luckmanqasim.github.io/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "categories": ["portfolio", "developer", "technology"],
+    "lang": "en-US"
+}

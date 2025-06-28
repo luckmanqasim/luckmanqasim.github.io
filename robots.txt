@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://luckmanqasim.github.io/sitemap.xml
+
+# Disallow common bot traps and unnecessary directories
+Disallow: /assets/temp/
+Disallow: /.git/
+Disallow: /node_modules/
+
+# Allow search engines to crawl all important content
+Allow: /styles.css
+Allow: /script.js
+Allow: /assets/
