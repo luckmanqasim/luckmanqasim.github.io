@@ -40,7 +40,7 @@
     --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.3);
     --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.4), 0 0 0 1px rgba(255, 255, 255, 0.05);
     --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.5), 0 0 0 1px rgba(255, 255, 255, 0.05);
-    --header-gradient: linear-gradient(135deg, #1E40AF, #3B82F6, #60A5FA);
+    --header-gradient: linear-gradient(135deg, #312E81, #1E1B4B);
     --card-gradient-dark: linear-gradient(to bottom right, rgba(30, 41, 59, 0.9), rgba(15, 23, 42, 0.7));
     --button-gradient: linear-gradient(to right, #3B82F6, #60A5FA);
     --section-gradient: linear-gradient(180deg, var(--background) 0%, rgba(15, 23, 42, 0.8) 100%);
