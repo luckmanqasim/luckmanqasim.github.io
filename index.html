@@ -1,288 +1,282 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Luckman Qasim</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="description" content="Portfolio">
-  <meta name="author" content="Luckman Qasim">
-  <link rel="stylesheet" href="assets/css/main.css">
-  <link rel="icon" href="assets/img/favicon.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luckman Qasim | Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
 
-<!-- notification for small viewports and landscape oriented smartphones -->
-<div class="device-notification">
-  <a class="device-notification--logo" href="#0">
-    <img src="assets/img/logo.png" alt="Global">
-    <p>Luckman Qasim</p>
-  </a>
-  <p class="device-notification--message">We have so much to offer that we must request you orient your device to portrait or find a larger screen. You won't be disappointed.</p>
-</div>
-
-<div class="perspective effect-rotate-left">
-  <div class="container"><div class="outer-nav--return"></div>
-    <div id="viewport" class="l-viewport">
-      <div class="l-wrapper">
-        <header class="header">
-          <a class="header--logo" href="#0">
-            <img src="assets/img/logo.png" alt="Global">
-            <p>Luckman Qasim</p>
-          </a>
-          <button class="header--cta cta">Contact</button>
-          <div class="header--nav-toggle">
-            <span></span>
-          </div>
-        </header>
-        <nav class="l-side-nav">
-          <ul class="side-nav">
-            <li class="is-active"><span>Home</span></li>
-            <li><span>Projects</span></li>
-            <li><span>About</span></li>
-            <li><span>My Skills</span></li>
-            <li><span>Contact</span></li>
-          </ul>
-        </nav>
-        <ul class="l-main-content main-content">
-          <li class="l-section section section--is-active">
-            <div class="intro">
-              <div class="intro--banner">
-                <h1>Luckman<br>Qasim</h1>
-                <button class="cta">Contact Me
-                  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
-                  <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
-                    <path d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z"/>
-                  </g>
-                  </svg>
-                  <span class="btn-background"></span>
-                </button>
-                <img src="assets/img/introduction-visual.png" alt="Welcome">
-              </div>
-              <div class="intro--options">
-                <a href="Resume.pdf" target="_blank">
-                  <h3>My Resume</h3>
-                  <p>Click here to open my resume made with LaTeX.</p>
-                </a>
-                <a href="https://www.linkedin.com/in/luckmanqasim/">
-                  <h3>LinkedIn</h3>
-                  <p>Click here to view to my LinkedIn profile.</p>
-                </a>
-                <a href="https://github.com/luckmanqasim">
-                  <h3>GitHub</h3>
-                  <p>Click here to view my GitHub profile.</p>
-                </a>
-              </div>
-            </div>
-          </li>
-          <li class="l-section section">
-            <div class="work">
-              <h2>My Projects</h2>
-              <div class="work--lockup">
-                <ul class="slider">
-                  <li class="slider--item slider--item-left">
-                    <a href="https://github.com/luckmanqasim/kijiji-webscraper">
-                      <div class="slider--item-image">
-                        <img src="assets/img/webscraper.png" alt="Victory">
-                      </div>
-                      <p class="slider--item-title">Kijiji Web Scraper and Email Notifier</p>
-                      <p class="slider--item-description">A Python web scraper that monitors a website for new listings and sends email notifications with details of the new ads. This project is intended for educational purposes only.</p>
-                    </a>
-                  </li>
-                  <li class="slider--item slider--item-center">
-                    <a href="https://github.com/luckmanqasim/image-editor">
-                      <div class="slider--item-image">
-                        <img src="assets/img/image-editor.png" alt="Metiew and Smith">
-                      </div>
-                      <p class="slider--item-title">Image Editor Application</p>
-                      <p class="slider--item-description">The Image Editor App is a Python-based desktop application that allows users to load, edit, and save images.</p>
-                    </a>
-                  </li>
-                  <li class="slider--item slider--item-right">
-                    <a href="https://github.com/luckmanqasim/email-filter-sms-alert">
-                      <div class="slider--item-image">
-                        <img src="assets/img/email-filter.png" alt="Alex Nowak">
-                      </div>
-                      <p class="slider--item-title">Email Keyword Filter and SMS Notifier</p>
-                      <p class="slider--item-description">A Python script that filters incoming emails for specific keywords and sends SMS notifications when a matching email is found.</p>
-                    </a>
-                  </li>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">LQ</div>
+                <ul class="nav-links">
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#experience" class="nav-link">Experience</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
                 </ul>
-                <div class="slider--prev">
-                  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                  viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
-                  <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
-                    <path d="M561,1169C525,1155,10,640,3,612c-3-13,1-36,8-52c8-15,134-145,281-289C527,41,562,10,590,10c22,0,41,9,61,29
-                    c55,55,49,64-163,278L296,510h575c564,0,576,0,597,20c46,43,37,109-18,137c-19,10-159,13-590,13l-565,1l182,180
-                    c101,99,187,188,193,199c16,30,12,57-12,84C631,1174,595,1183,561,1169z"/>
-                  </g>
-                  </svg>
+                <div class="mobile-nav-controls">
+                    <button id="theme-toggle" aria-label="Toggle dark mode">
+                        <i class="fas fa-moon"></i>
+                        <i class="fas fa-sun"></i>
+                    </button>
+                    <button id="mobile-menu-toggle" aria-label="Toggle menu">
+                        <i class="fas fa-bars"></i>
+                    </button>
                 </div>
-                <div class="slider--next">
-                  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
-                  <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
-                    <path d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z"/>
-                  </g>
-                  </svg>
-                </div>
-              </div>
+            </nav>
+            
+            <div class="mobile-menu">
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                </ul>
             </div>
-          </li>
-          <li class="l-section section">
-            <div class="about">
-              <div class="about--banner">
-                <h2>About Me</h2>
-              <!--
-                <a href="#0">Career
-                  <span>
-                    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve" fill="black">
-                    <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
-                      <path d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z"/>
-                    </g>
-                    </svg>
-                  </span>
-                </a>
-              -->
-                <p>
-                  Hello World! I'm Luckman, a passionate third-year Computer Science student at Memorial University of Newfoundland, maintaining a strong CGPA of 3.81. Currently immersed in the dynamic field of Machine Learning for drug discovery, I'm actively exploring the intersection of my skills in this domain with the captivating applications of Big Data and Natural Language Processing (NLP). Beyond academics, my enthusiasm extends to AI, deep learning, and NLP, and I'm eager to leverage these passions in a professional setting.
-                  <br><br>
-                  Throughout my academic journey, I've consistently excelled, securing a perfect 4.0 in all Computer Science courses. Outside of coding, I find joy in tutoring high school students in Math, Physics, and Chemistry through TutorBright.
-                </p>
-                <!--<img src="assets/img/about-visual.png" alt="About Us">-->
-              </div>
-              <div class="about--options">
-                <a href="https://www.linkedin.com/in/luckmanqasim/">
-                  <h3>LinkedIn</h3>
-                </a>
-                <a href="https://github.com/luckmanqasim">
-                  <h3>GitHub</h3>
-                </a>
-                <a href="Resume.pdf" target="_blank">
-                  <h3>Resume</h3>
-                </a>
-              </div>
-            </div>
-          </li>
-          
-          <li class="l-section section">
-            <div class="hire">
-              <h2>My technical skills include:</h2>
-              <!-- checkout formspree.io for easy form setup -->
-              <form class="work-request">
-                <div class="work-request--options">
-                  <span class="options-a">
-                    <input id="opt-1" type="checkbox" value="app design">
-                    <label for="opt-1">
-                      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                      viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
-                      <g transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
-                        <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
-                      </g>
-                      </svg>
-                      Machine Learning
-                    </label>
-                    <input id="opt-2" type="checkbox" value="graphic design">
-                    <label for="opt-2">
-                      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                      viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
-                      <g transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
-                        <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
-                      </g>
-                      </svg>
-                      Big Data
-                    </label>
-                    <input id="opt-3" type="checkbox" value="motion design">
-                    <label for="opt-3">
-                      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                      viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
-                      <g transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
-                        <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
-                      </g>
-                      </svg>
-                      Deep Learning
-                    </label>
-                  </span>
-                  <span class="options-b">
-                    <input id="opt-4" type="checkbox" value="ux design">
-                    <label for="opt-4">
-                      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                      viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
-                      <g transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
-                        <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
-                      </g>
-                      </svg>
-                      Automation
-                    </label>
-                    <input id="opt-5" type="checkbox" value="webdesign">
-                    <label for="opt-5">
-                      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                      viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
-                      <g transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
-                        <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
-                      </g>
-                      </svg>
-                      Drug Discovery
-                    </label>
-                    <input id="opt-6" type="checkbox" value="marketing">
-                    <label for="opt-6">
-                      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                      viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
-                      <g transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
-                        <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
-                      </g>
-                      </svg>
-                      Natural Language Processing (NLP)
-                    </label>
-                  </span>
-                <!--
-                </div>
-                <div class="work-request--information">
-                  <div class="information-name">
-                    <input id="name" type="text" spellcheck="false">
-                    <label for="name">Name</label>
-                  </div>
-                  <div class="information-email">
-                    <input id="email" type="email" spellcheck="false">
-                    <label for="email">Email</label>
-                  </div>
-                </div>
-                -->
-                <input type="submit" value="">
-              </form>
-            </div>
-          </li>
-          <li class="l-section section">
-            <div class="contact">
-              <div class="contact--lockup">
-                <div class="modal">
-                  <div class="modal--information">
-                    <p>St. John's, Newfoundland and Labrador</p>
-                    <a href="mailto:ouremail@gmail.com">mlqasim@mun.ca</a>
-                  </div>
-                  <ul class="modal--options">
-                    <li><a href="https://www.linkedin.com/in/luckmanqasim/">LinkedIn</a></li>
-                    <li><a href="https://github.com/luckmanqasim">GitHub</a></li>
-                    <li><a href="Resume.pdf" target="_blank">Resume</a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </div>
-  <ul class="outer-nav">
-    <li class="is-active">Home</li>
-    <li>Works</li>
-    <li>About</li>
-    <li>Skills</li>
-    <li>Contact</li>
-  </ul>
-</div>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-2.2.4.min.js"><\/script>')</script>
-<script src="assets/js/functions-min.js"></script>
+            <div class="hero">
+                <h1 class="reveal-text">Luckman Qasim</h1>
+                <h2 class="reveal-text delay-1">Software Developer</h2>
+                <div class="contact-info reveal-text delay-2">
+                    <a href="mailto:mlqasim@mun.ca"><i class="fas fa-envelope"></i> mlqasim@mun.ca</a>
+                    <a href="https://linkedin.com/in/luckmanqasim" target="_blank"><i class="fab fa-linkedin"></i> linkedin.com/in/luckmanqasim</a>
+                    <a href="https://github.com/luckmanqasim" target="_blank"><i class="fab fa-github"></i> github.com/luckmanqasim</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title reveal-text">About Me</h2>
+            <div class="section-content">                <div class="about-text reveal-element">
+                    <p>I'm a driven final-year Computer Science student and published researcher (ProS<sup>2</sup>Vi, Computational and Structural Biotechnology Journal) from Memorial University of Newfoundland. I have a proven track record of solving real-world problems using AI, with expertise in both Large Language Models (LLMs) and Computer Vision.</p>
+                    <p>My work spans fine-tuning AI models for practical applications like digitizing documents, developing sophisticated LLM training content, and creating novel scientific visualization tools. I'm particularly fascinated by the intersection of LLMs and Computer Vision and am actively seeking opportunities to build impactful, AI-driven applications.</p>
+                </div>
+                <div class="education reveal-element delay-1">
+                    <h3><i class="fas fa-graduation-cap"></i> Education</h3>
+                    <div class="education-item">
+                        <h4>Memorial University of Newfoundland</h4>
+                        <p>Bachelor of Science in Computer Science</p>
+                        <p class="highlight">CGPA 3.82/4.00</p>
+                        <p class="date">May 2022 – May 2026</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="section alt-bg">
+        <div class="container">
+            <h2 class="section-title reveal-text">Work Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item reveal-element">
+                    <div class="timeline-content">
+                        <h3>Software Development Intern</h3>
+                        <div class="date-badge">September 2024 – Present</div>
+                        <h4>Genoa Design International</h4>
+                        <p class="location"><i class="fas fa-map-marker-alt"></i> Mount Pearl, NL</p>
+                        <ul class="achievements">
+                            <li>Digitized legacy hand-drawn documents by fine-tuning Microsoft TrOCR AI model to extract and index specific codes from thousands of pages, streamlining CAD workflows.</li>
+                            <li>Extracted hand-written text from legacy PDFs and inserted it as comments, enabling CAD designers to efficiently search using CTRL+F, significantly reducing time spent locating information.</li>
+                            <li>Built full-stack solutions for Genoa's internal configuration management web applications using C#, SQL, React, and Material UI, improving functionality and user experience.</li>
+                            <li>Collaborated in an Agile environment using Scrum to meet project goals efficiently.</li>
+                            <li>Managed task assignments, source control, and CI/CD pipelines via Azure DevOps.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item reveal-element delay-1">
+                    <div class="timeline-content">
+                        <h3>AI Trainer</h3>
+                        <div class="date-badge">December 2023 – Present</div>
+                        <h4>Data Annotation</h4>
+                        <p class="location"><i class="fas fa-map-marker-alt"></i> Remote</p>
+                        <ul class="achievements">
+                            <li>Designed complex coding problems and solutions to advance AI chatbots' code comprehension and generation.</li>
+                            <li>Authored high-quality answers and code snippets in Python, JavaScript, C, and SQL for LLM training.</li>
+                            <li>Conducted rigorous code quality reviews, ensuring accuracy and adherence to standards.</li>
+                            <li>Worked independently and collaborated remotely to deliver impactful projects.</li>
+                            <li>Reviewed peer work, maintaining high performance and accuracy benchmarks.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item reveal-element delay-2">
+                    <div class="timeline-content">
+                        <h3>Research Assistant</h3>
+                        <div class="date-badge">September 2023 – September 2024</div>
+                        <h4>Memorial University of Newfoundland - School of Pharmacy</h4>
+                        <p class="location"><i class="fas fa-map-marker-alt"></i> St. John's, NL</p>
+                        <ul class="achievements">
+                            <li>Developed ProS<sup>2</sup>Vi, a visualization tool for protein secondary structures, using Python, Flask, and Biopython.</li>
+                            <li>Processed and cleaned over 160,000 protein files, achieving an 8x speed improvement through multiprocessing.</li>
+                            <li>Optimized data algorithms to reduce processing time by 40%.</li>
+                            <li>Automated redundant data elimination, simplifying large-scale research data handling.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title reveal-text">Projects & Publications</h2>
+            <div class="project-grid">
+                <div class="project-card reveal-element">
+                    <div class="project-header">
+                        <h3>ProS<sup>2</sup>Vi</h3>
+                        <span class="project-badge">Publication</span>
+                    </div>
+                    <p class="project-meta">Accepted to Computational and Structural Biotechnology Journal on February 27th, 2025</p>
+                    <div class="project-links">
+                        <a href="https://www.sciencedirect.com/science/article/pii/S2001037025000650" target="_blank" class="project-link">
+                            <i class="fas fa-external-link-alt"></i> ScienceDirect
+                        </a>
+                        <a href="https://github.com/Alisaraie-Group/ProS2Vi/" target="_blank" class="project-link">
+                            <i class="fab fa-github"></i> GitHub Repository
+                        </a>
+                    </div>
+                    <div class="project-description">
+                        <ul>
+                            <li>Developed ProS<sup>2</sup>Vi, a Python-based tool for visualizing protein secondary structures from PDB and mmCIF files.</li>
+                            <li>Utilized Biopython and the DSSP executable to extract and format protein structure data, and Jinja2 to generate HTML tables for visualization.</li>
+                            <li>Created a secure, user-friendly GUI using Flask for local operation, suitable for Linux and Windows environments (via WSL).</li>
+                            <li>Simplified installation and usage with an automated shell script and comprehensive documentation.</li>
+                        </ul>
+                    </div>
+                    <div class="tech-stack">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Biopython</span>
+                        <span class="tech-tag">Flask</span>
+                        <span class="tech-tag">Jinja2</span>
+                        <span class="tech-tag">DSSP</span>
+                        <span class="tech-tag">wkhtmltopdf</span>
+                    </div>
+                </div>
+                <div class="project-card reveal-element delay-1">
+                    <div class="project-header">
+                        <h3>PDBpepDS</h3>
+                        <span class="project-badge">Dataset</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/Alisaraie-Group/PDBpepDS" target="_blank" class="project-link">
+                            <i class="fab fa-github"></i> GitHub Repository
+                        </a>
+                        <a href="https://zenodo.org/records/13625563" target="_blank" class="project-link">
+                            <i class="fas fa-database"></i> Zenodo
+                        </a>
+                    </div>
+                    <div class="project-description">
+                        <ul>
+                            <li>Created a comprehensive dataset of peptides using all protein files deposited in RCSB as of November 1st, 2023.</li>
+                            <li>The dataset includes multiple files: a complete collection (output_full.csv), peptides with exactly 15 amino acids (peptides_length_15aa.csv), peptides with less than 15 amino acids (peptides_less_than_15aa.csv), and peptides with unknown residues (peptides_with_unknown_residues.csv).</li>
+                            <li>Calculated 29 different descriptors for each peptide, including molecular weight, hydrophobic moment, aliphatic index, charge at pH 7, hydrophobicity index, instability index, isoelectric point, and various amino acid property scales (BLOSUM, FASGAI, Kidera Factors, Z-scales).</li>
+                            <li>Descriptors cover critical peptide properties like hydrophobicity, electrostatic characteristics, structural tendencies, and stability measures to facilitate computational drug design and peptide research.</li>
+                            <li>Dataset is available on Zenodo and GitHub for researchers in peptide therapeutics and protein structure analysis.</li>
+                        </ul>
+                    </div>
+                    <div class="tech-stack">
+                        <span class="tech-tag">Data Mining</span>
+                        <span class="tech-tag">RCSB PDB</span>
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Pandas</span>
+                        <span class="tech-tag">Biopython</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section alt-bg">
+        <div class="container">
+            <h2 class="section-title reveal-text">Technical Skills</h2>
+            <div class="skills-container">
+                <div class="skill-group reveal-element">
+                    <h3><i class="fas fa-code"></i> Languages & Web Development</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">C#</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">TypeScript</span>
+                        <span class="skill-tag">HTML</span>
+                        <span class="skill-tag">CSS</span>
+                        <span class="skill-tag">SQL</span>
+                        <span class="skill-tag">React</span>
+                        <span class="skill-tag">Flask</span>
+                        <span class="skill-tag">Node.js</span>
+                    </div>
+                </div>
+                <div class="skill-group reveal-element delay-1">
+                    <h3><i class="fas fa-brain"></i> AI & Machine Learning</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">PyTorch</span>
+                        <span class="skill-tag">TensorFlow</span>
+                        <span class="skill-tag">scikit-learn</span>
+                        <span class="skill-tag">Transformers</span>
+                        <span class="skill-tag">Computer Vision</span>
+                        <span class="skill-tag">Optical Character Recognition</span>
+                        <span class="skill-tag">Large Language Models</span>
+                    </div>
+                </div>
+                <div class="skill-group reveal-element delay-2">
+                    <h3><i class="fas fa-database"></i> Data Science & Analysis</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">pandas</span>
+                        <span class="skill-tag">NumPy</span>
+                        <span class="skill-tag">Matplotlib</span>
+                        <span class="skill-tag">Seaborn</span>
+                        <span class="skill-tag">Jupyter</span>
+                        <span class="skill-tag">SQL Server</span>
+                        <span class="skill-tag">Data Visualization</span>
+                        <span class="skill-tag">Data Mining</span>
+                        <span class="skill-tag">Exploratory Data Analysis</span>
+                        <span class="skill-tag">Biopython</span>
+                    </div>
+                </div>
+                <div class="skill-group reveal-element delay-1">
+                    <h3><i class="fas fa-tools"></i> Developer Tools & DevOps</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">GitHub</span>
+                        <span class="skill-tag">Azure DevOps</span>
+                        <span class="skill-tag">VS Code</span>
+                        <span class="skill-tag">SSMS</span>
+                        <span class="skill-tag">CI/CD</span>
+                        <span class="skill-tag">Docker</span>
+                        <span class="skill-tag">Agile/Scrum</span>
+                        <span class="skill-tag">Unit Testing</span>
+                        <span class="skill-tag">Shell Scripting</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>&copy; 2025 Luckman Qasim</p>
+                </div>
+                <div class="social-links">
+                    <a href="https://linkedin.com/in/luckmanqasim" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/luckmanqasim" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="mailto:mlqasim@mun.ca"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
