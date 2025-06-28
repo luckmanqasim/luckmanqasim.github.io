@@ -1,5 +1,4 @@
 :root {
-    /* Light Theme Colors - Apple-inspired */
     --primary-color: #2563EB;
     --primary-light: #60A5FA;
     --primary-dark: #1D4ED8;
@@ -18,13 +17,19 @@
     --transition-slow: 0.5s ease;
     --transition-medium: 0.3s ease;
     --transition-fast: 0.2s ease;
-    --card-gradient-light: linear-gradient(to bottom right, rgba(255, 255, 255, 0.9), rgba(240, 240, 240, 0.7));
+    --card-gradient-light: linear-gradient(135deg, 
+                                          rgba(255, 255, 255, 0.95) 0%, 
+                                          rgba(248, 250, 252, 0.9) 25%, 
+                                          rgba(241, 245, 249, 0.85) 50%, 
+                                          rgba(248, 250, 252, 0.9) 75%, 
+                                          rgba(255, 255, 255, 0.95) 100%),
+                          radial-gradient(circle at top left, rgba(37, 99, 235, 0.03), transparent 50%),
+                          radial-gradient(circle at bottom right, rgba(236, 72, 153, 0.02), transparent 50%);
     --backdrop-blur: blur(8px);
     --button-gradient: linear-gradient(to right, #2563EB, #3B82F6);
     --section-gradient: linear-gradient(180deg, var(--background) 0%, rgba(249, 250, 251, 0.8) 100%);
 }
 
-/* Dark Theme Colors - Apple-inspired */
 [data-theme="dark"] {
     --primary-color: #3B82F6;
     --primary-light: #60A5FA;
@@ -443,7 +448,7 @@ nav {
 
 /* Cards & Components Common Styles */
 .education-item, .timeline-content, .project-card, .skill-group {
-    border-radius: 16px; /* More rounded corners like Apple */
+    border-radius: 16px;
     box-shadow: var(--shadow-md);
     background: var(--card-gradient-light);
     transition: transform var(--transition-medium), 
@@ -492,12 +497,14 @@ nav {
 
 .education-item {
     padding: 1.5rem;
-    background-color: var(--card-bg);
+    background: var(--card-gradient-light),
+                linear-gradient(135deg, rgba(16, 185, 129, 0.02) 0%, transparent 30%),
+                linear-gradient(225deg, rgba(37, 99, 235, 0.02) 0%, transparent 30%);
     border-radius: 12px;
     box-shadow: var(--shadow-md);
     transition: transform var(--transition-medium), 
                 box-shadow var(--transition-medium),
-                background-color 0.3s ease;
+                background 0.3s ease;
     border: 1px solid var(--border-color);
     position: relative;
     overflow: hidden;
@@ -636,7 +643,9 @@ nav {
 .timeline-content {
     position: relative;
     padding: 2rem;
-    background: var(--card-gradient-light);
+    background: var(--card-gradient-light),
+                linear-gradient(45deg, rgba(37, 99, 235, 0.025) 0%, transparent 40%),
+                linear-gradient(315deg, rgba(139, 92, 246, 0.02) 0%, transparent 40%);
     border-radius: 16px;
     box-shadow: var(--shadow-md);
     transition: all var(--transition-medium);
@@ -808,13 +817,15 @@ nav {
 }
 
 .project-card {
-    background: var(--card-gradient-light);
+    background: var(--card-gradient-light),
+                linear-gradient(135deg, rgba(139, 92, 246, 0.025) 0%, transparent 50%),
+                linear-gradient(45deg, rgba(16, 185, 129, 0.02) 0%, transparent 50%);
     border-radius: 16px;
     overflow: hidden;
     box-shadow: var(--shadow-md);
     transition: transform var(--transition-medium), 
                 box-shadow var(--transition-medium),
-                background-color 0.3s ease;
+                background 0.3s ease;
     padding: 2rem;
     border: 1px solid var(--border-color);
     position: relative;
@@ -1024,7 +1035,7 @@ nav {
 /* Skills Section */
 .skills-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     max-width: 1200px;
     margin: 0 auto;
     gap: 2.5rem;
@@ -1035,13 +1046,15 @@ nav {
 }
 
 .skill-group {
-    background: var(--card-gradient-light);
+    background: var(--card-gradient-light),
+                radial-gradient(circle at top center, rgba(59, 130, 246, 0.03), transparent 60%),
+                radial-gradient(circle at bottom center, rgba(236, 72, 153, 0.025), transparent 60%);
     border-radius: 16px;
     padding: 2rem;
     box-shadow: var(--shadow-md);
     transition: transform var(--transition-medium), 
                 box-shadow var(--transition-medium),
-                background-color 0.3s ease;
+                background 0.3s ease;
     border: 1px solid var(--border-color);
     position: relative;
     overflow: hidden;
@@ -1435,7 +1448,6 @@ body.menu-open {
     }
 }
 
-/* Modern Apple-style Button */
 .btn {
     display: inline-block;
     padding: 0.8rem 1.8rem;
